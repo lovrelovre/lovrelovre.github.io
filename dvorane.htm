@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+h1 {text-align: center;}
+
+body {
+  margin: 50px;
+  text-align: center;
+  background-image: url("basketball-gf68fb17c2_1280.png") ;
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a.active {
+  color: white;
+  background-color: red;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.button3 {
+   top: 40%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgba(240, 161, 96, 0.801); 
+}
+.button4 {
+   top: 47%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button5 {
+   top: 54%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button6 {
+   top: 61%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button7 {
+   top: 68%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button8 {
+   top: 75%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button9 {
+   top: 82%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button10 {
+   top: 89%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button11 {
+   top: 96%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button12 {
+   top: 103%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button13 {
+   top: 110%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button14 {
+   top: 117%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button15 {
+   top: 124%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button16 {
+   top: 131%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button17 {
+   top: 138%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button18 {
+   top: 145%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button19 {
+   top: 152%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button20 {
+   top: 159%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button21 {
+   top: 166%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button22 {
+   top: 173%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button23 {
+   top: 180%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button24 {
+   top: 187%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button25 {
+   top: 194%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button26 {
+   top: 201%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button27 {
+   top: 208%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button28 {
+   top: 215%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button29 {
+   top: 222%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button30 {
+   top: 229%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button31 {
+   top: 236%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button32 {
+   top: 243%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.button33 {
+   top: 250%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgb(164, 151, 151, 0.801); 
+}
+.buton1 {
+   top: 257%;
+   font-size: 150%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   z-index: 2;
+   text-decoration: double; 
+   background: rgba(164, 151, 151, 0.801); 
+}
+.buton2 {
+   top: 264%;
+   left: 21%;
+   width: 60%;
+   height:30px;
+   position: absolute;
+   text-decoration: double;
+   z-index: 2;
+   font-size: 150%;
+   background: rgba(164, 151, 151, 0.801);
+}
+
+@media only screen and (max-width: 600px) {
+   [class*="button"] {
+    width: 100%;
+    left: 0%;
+    font-size: 20px;
+    height: 4%;
+  }
+  .buton1{
+   top:33%;
+   width:100%;
+   left:0%;
+   font-size: 20px;
+  }
+  .buton2{
+   top:257%;
+   width: 100%;
+   left: 0%;
+  }
+  ul{
+   width:100%;
+   font-size: smaller;
+  }
+  h1{
+   font-size: medium;
+  }
+  body{
+   background-size: 100%;
+  }
+}
+
+</style>
+</head>
+<body style="background-color: powderblue;">
+
+<h1>KOŠARKAŠKI SAVEZ LOVRE</h1>
+
+<a href="https://www.google.com/maps/place/Arena+Zagreb/@45.7712496,15.934878,15z/data=!3m1!4b1!4m5!3m4!1s0x4765d692c902cc39:0x6f4d99faa83e0f36!8m2!3d45.771235!4d15.9436328" target="_blank" class="buton1" > Arena Zagreb</a>
+<a href="https://www.google.com/maps/place/Bo%C4%87arski+dom+Zrinjevac/@45.7897974,15.952873,15z/data=!4m5!3m4!1s0x4765d68faa14a207:0x69a9f837e9a7ece9!8m2!3d45.7897828!4d15.9616278" target="_blank" class="buton2" > Boćarski dom Zrinjevac</a>
+<a href="https://www.google.com/maps/place/KK+Cedevita/@45.7798277,15.957839,15z/data=!3m1!4b1!4m5!3m4!1s0x4765d67e2c26d79f:0x41bb7f1898fe8f4d!8m2!3d45.7798131!4d15.9665938" target="_blank" class="button3" > Dom košarke Cedevita</a>
+<a href="https://www.google.com/maps/place/Ekonomski+fakultet+Sveu%C4%8Dili%C5%A1ta+u+Zagrebu/@45.8160288,16.0122392,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d7b618f99845:0xf20c0e1c72133f34!8m2!3d45.8160288!4d16.0122392" target="_blank" class="button4" > Dvorana Ekonomskog fakulteta</a>
+<a href="https://www.google.com/maps/place/Ko%C5%A1arka%C5%A1ki+centar+Dra%C5%BEen+Petrovi%C4%87/@45.8026237,15.954746,15z/data=!3m1!4b1!4m5!3m4!1s0x4765d6ee6e1fe3c1:0x92b30b1aab240c23!8m2!3d45.8022458!4d15.9633545" target="_blank" class="button5" > Košarkaški centar Dražen Petrović</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Antuna+Mihanovi%C4%87a/@45.8299251,16.0780681,17z/data=!3m1!4b1!4m5!3m4!1s0x47667822c4ddee8b:0xc6522c0305d66f7d!8m2!3d45.8299194!4d16.078098" target="_blank" class="button6" > OŠ Antun Mihanović</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Iver/@45.8120225,16.1842773,17z/data=!3m1!4b1!4m5!3m4!1s0x47667a6fbd1fecb3:0x89114b22685b5255!8m2!3d45.8120225!4d16.1842773" target="_blank" class="button7" > OŠ IVER, Sesvetski Kraljevec</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Antuna+Mihanovi%C4%87a/@45.8299251,16.0780681,17z/data=!3m1!4b1!4m5!3m4!1s0x47667822c4ddee8b:0xc6522c0305d66f7d!8m2!3d45.8299194!4d16.078098" target="_blank" class="button8" > SD OŠ Antun Mihanović</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Borovje/@45.787191,16.009037,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6176ca1d7df:0xb942669c5c0a7536!8m2!3d45.7872593!4d16.0089055" target="_blank" class="button9" > SD OŠ Borovje</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Ivana+Filipovi%C4%87a/@45.81929,15.9984973,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d7afa9f9995f:0x96c621947ca5d06f!8m2!3d45.8191348!4d15.9985089" target="_blank" class="button10"> SD OŠ Ivan Filipović</a>
+<a href="https://www.google.com/maps/place/Osnovna+%C5%A1kola+Ivo+Andri%C4%87/@45.7734786,15.9864981,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d5df9dd18109:0x8c03ed1e985fd040!8m2!3d45.7734786!4d15.9864981" target="_blank" class="button11"> SD OŠ Ive Andrića</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Kajzerica/@45.7800731,15.9623811,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d681a83b8dcf:0xa93a081f7ba8aa1e!8m2!3d45.7801401!4d15.9623755" target="_blank" class="button12"> SD OŠ Kajzerica</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Lovre+pl.+Mata%C4%8Di%C4%87a/@45.7939072,16.0050569,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d63edc79c3a1:0x3df8df1fbf562da6!8m2!3d45.7939092!4d16.0050567" target="_blank" class="button13"> SD OŠ L.P. Matačića </a>
+<a href="https://www.google.com/maps/place/Osnovna+%C5%A1kola+Matije+Gupca/@45.7933138,15.9504138,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6968866d245:0x94bfaff807574dc5!8m2!3d45.7933226!4d15.9504135" target="_blank" class="button14"> SD OŠ Matija Gubec</a>
+<a href="https://www.google.com/maps/place/Osnovna+%C5%A1kola+Matka+Laginje/@45.813218,15.9928602,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d7acaf9293b7:0x30a5ffc7dac09da0!8m2!3d45.8131527!4d15.9928642" target="_blank" class="button15"> SD OŠ Matka Laginje</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Mate+Lovraka/@45.8352065,16.0529273,17z/data=!3m1!4b1!4m5!3m4!1s0x47667807a56d5d49:0x2a104991711cabbb!8m2!3d45.8352427!4d16.0529089" target="_blank" class="button16"> SD OŠ Mato Lovrak</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Petra+Zrinskog/@45.8119438,15.958837,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6e74e9e1997:0xdb50d39734a4940d!8m2!3d45.8119438!4d15.958837" target="_blank" class="button17"> SD OŠ Petar Zrinski</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Rude%C5%A1/@45.7973322,15.9173502,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d14c6a8c11b1:0xa32eb173da80fd1d!8m2!3d45.7972512!4d15.9173392" target="_blank" class="button18"> SD OŠ Rudeš</a>
+<a href="https://www.google.com/maps/place/Osnovna+%C5%A1kola+Sesvetska+Sela/@45.8321579,16.1357291,17z/data=!3m1!4b1!4m5!3m4!1s0x4766775f3a338a27:0x2d122fc5df204025!8m2!3d45.8321579!4d16.1357291" target="_blank" class="button19"> SD OŠ Sesvetska sela</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Sveta+Klara/@45.7555276,15.9696198,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d5b8f07b9883:0x3a5834b0c1006bfa!8m2!3d45.7555276!4d15.9696198" target="_blank" class="button20"> SD OŠ Sv. Klara</a>
+<a href="https://www.google.com/maps/place/O%C5%A0+Vjenceslava+Novaka/@45.8385952,16.0595912,17z/data=!3m1!4b1!4m5!3m4!1s0x476678017da15db5:0x62bd544e846fb372!8m2!3d45.8387036!4d16.0595932" target="_blank" class="button21"> SD OŠ Vjeneceslava Novaka</a> 
+<a href="https://www.google.com/maps/place/O%C5%A0+Zapru%C4%91e/@45.7814411,15.996222,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d60ce2420b17:0xa3d53dcd5855695e!8m2!3d45.7814884!4d15.9962202" target="_blank" class="button22"> SD OŠ Zapruđe</a>
+<a href="https://www.google.com/maps/place/Fakultet+%C5%A1umarstva+i+drvne+tehnologije/@45.8246801,15.994916,13z/data=!4m10!1m2!2m1!1ssd+sumskog+fakulteta!3m6!1s0x4765d7c28d84ea69:0xce89b7a1d57ca257!8m2!3d45.8246801!4d16.0299349!15sChRzZCBzdW1za29nIGZha3VsdGV0YVoWIhRzZCBzdW1za29nIGZha3VsdGV0YZIBEXB1YmxpY191bml2ZXJzaXR54AEA!16s%2Fg%2F1228xfrm" target="_blank" class="button23"> SD Šumarskog fakulteta</a>
+<a href="https://www.google.com/maps/place/SD+Tre%C5%A1njevka/@45.7966121,15.9419929,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6b93479e663:0x6ecd43589bb9d403!8m2!3d45.7966121!4d15.9419929" target="_blank" class="button24"> SD Trešnjevka</a>
+<a href="https://www.google.com/maps/place/Hrvatsko+vojno+u%C4%8Dili%C5%A1te+Dr.+Franjo+Tu%C4%91man/@45.8145465,15.9381555,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6d4600a9bd5:0x19a9c591ebc30781!8m2!3d45.8145074!4d15.9381364" target="_blank" class="button25"> SD Vojno Učilište</a>
+<a href="https://www.google.com/maps/place/%C5%A0SD+Bo%C5%A1ko+Bo%C5%BEi%C4%87+%22Pepsi%22/@45.7740008,15.9624474,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d50a42ef03bb:0xed943ccaa1ebcf13!8m2!3d45.773774!4d15.9624589" target="_blank" class="button26"> SD Boško Božić Pepsi</a>
+<a href="https://www.google.com/maps/place/Dom+sportova/@45.808124,15.9524627,17z/data=!3m1!4b1!4m5!3m4!1s0x476660b05c720e69:0x48ce899f14403a53!8m2!3d45.808124!4d15.9524627" target="_blank" class="button27"> Športska dvorana Dom Sportova II</a>
+<a href="https://www.google.com/maps/place/S%C5%A0D+Dubrava/@45.8322022,16.0624523,17z/data=!3m1!4b1!4m5!3m4!1s0x476678054e947393:0x62ffe4f90658435e!8m2!3d45.8322022!4d16.0624523" target="_blank" class="button28"> SD Dubrava</a>
+<a href="https://www.google.com/maps/place/%C5%BDKK+Zagreb/@45.798027,15.901352,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d14372f2f4ed:0xd9524c2aed4f1099!8m2!3d45.798027!4d15.901352" target="_blank" class="button29"> SD Ivan Arapović</a>
+<a href="https://www.google.com/maps/place/SD+Sutinska+vrela/@45.8178834,15.8330748,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d1de9b488505:0x7178f252c2e676cf!8m2!3d45.8178834!4d15.8330748" target="_blank" class="button30"> Športska dvorana Sutinska vrela</a>
+<a href="https://www.google.com/maps/place/Prirodoslovna+%C5%A1kola+Vladimira+Preloga/@45.8019194,15.9998626,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d648a45204d1:0x67c799bd50c9200d!8m2!3d45.8020174!4d15.9996372" target="_blank" class="button31"> SD Vladimira Preloga </a>
+<a href="https://www.google.com/maps/place/Habyland/@45.7798077,15.9650109,16z/data=!4m10!1m2!2m1!1spaviljon+25!3m6!1s0x4765d67e577f89f7:0x9e21bc11710e4c82!8m2!3d45.7798077!4d15.9693883!15sCgtwYXZpbGpvbiAyNZIBGWNoaWxkcmVuX2FtdXNlbWVudF9jZW50ZXLgAQA!16s%2Fg%2F11c2qpxjrf" target="_blank" class="button32"> SD ZV, Paviljon 25</a>
+<a href="https://www.google.com/maps/place/Sportska+dvorana+Pe%C5%A1%C4%8Denica/@45.8054743,16.0261203,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d62c8cd5a88b:0x63fa3234528d0984!8m2!3d45.8054743!4d16.0261203" target="_blank" class="button33"> SŠD Pešćenica</a>
+
+<ul>
+   <li class="dropdown">
+     <a href="" class="dropbtn">Povijest</a>
+     <div class="dropdown-content">
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\snimke_utakmica.htm">Snimke utakmica</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\hrvatska_kosarka.htm">Hrvatska košarka</a>
+ 
+   <li class="dropdown">
+     <a  href="" class="dropbtn">Novosti</a>
+     <div class="dropdown-content">
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\raspored.htm">Raspored</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\reprezentacija.htm">Reprezentacija</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\liga.htm">Liga</a>
+ 
+ 
+   <li class="dropdown">
+     <a href="" class="dropbtn">Rezultati</a>
+     <div class="dropdown-content">
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\seniori_rez.htm">Seniori</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\juniori_rez.htm">Juniori</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\kadeti_rez.htm">Kadeti</a>
+ 
+   <li class="dropdown">
+     <a href="" class="dropbtn">Lige(m)</a>
+     <div class="dropdown-content">
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\seniori.htm">Seniori</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\juniori.htm">Juniori</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\kadeti.htm">Kadeti</a>
+ 
+   <li class="dropdown">
+     <a href="" class="dropbtn">Lige(ž)</a>
+     <div class="dropdown-content">
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\seniorke.htm">Seniorke</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\juniorke.htm">Juniorke</a>
+ 
+   <li class="dropdown">
+     <a class="active" href="C:\Users\lovre\OneDrive\Radna površina\web stranica\dvorane.htm" class="dropbtn">Dvorane</a>
+ 
+   <li class="dropdown">
+     <a href="" class="dropbtn">Galerija</a>
+     <div class="dropdown-content">
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\zenska_kosarka.htm">Ženska košarka</a>
+       <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\muska_kosarka.htm">Muška košarka</a>
+ 
+   <li><a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\kontakt.htm">Kontakt</a></li>
+ </ul>
+
+
+</body>
+</html>

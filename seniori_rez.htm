@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+h1 {text-align: center;}
+
+body {
+  margin: 50px;
+  text-align: center;
+  background-image: url("basketball-gf68fb17c2_1280.png") ;
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a.active {
+  color: white;
+  background-color: red;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(210, 200, 200);
+}
+
+.table1{
+  width:80%; 
+  position:absolute;
+  left: 10%; 
+  top: 25%;
+}
+
+.table2{
+  width:80%; 
+  position:absolute; 
+  left: 10%; top: 
+  50%;
+}
+
+.table3{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 75%;
+}
+
+.table4{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 100%;
+}
+
+.table5{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 125%;
+}
+
+.table6{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 150%;
+}
+
+.table7{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 175%;
+}
+
+.table8{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 200%;
+}
+
+.table9{
+  width:80%; 
+  position:absolute; 
+  left: 10%;
+  top: 225%;
+}
+
+.table10{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 250%;
+}
+
+.table11{
+  width:80%; 
+  position:absolute; 
+  left: 10%; 
+  top: 275%;
+}
+
+.table12{
+  width:80%; 
+  position:absolute; 
+  left: 10%;
+  top: 300%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  [class*="table"] {
+  width: 80%;
+  font-size: smaller;
+  left: 7%;
+  }
+  ul{
+   width:100%;
+   font-size: smaller;
+  }
+  h1{
+   font-size: medium;
+  }
+
+}
+
+</style>
+</head>
+<body style="background-color: powderblue;">
+
+<h1>KOŠARKAŠKI SAVEZ LOVRE</h1>
+<ul>
+  <li class="dropdown">
+    <a href="" class="dropbtn">Povijest</a>
+    <div class="dropdown-content">
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\snimke_utakmica.htm">Snimke utakmica</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\hrvatska_kosarka.htm">Hrvatska košarka</a>
+
+  <li class="dropdown">
+    <a href="" class="dropbtn">Novosti</a>
+    <div class="dropdown-content">
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\raspored.htm">Raspored</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\reprezentacija.htm">Reprezentacija</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\liga.htm">Liga</a>
+
+
+  <li class="dropdown">
+    <a class="active" href="" class="dropbtn">Rezultati</a>
+    <div class="dropdown-content">
+      <a class="active" href="C:\Users\lovre\OneDrive\Radna površina\web stranica\seniori_rez.htm">Seniori</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\juniori_rez.htm">Juniori</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\kadeti_rez.htm">Kadeti</a>
+
+  <li class="dropdown">
+    <a href="" class="dropbtn">Lige(m)</a>
+    <div class="dropdown-content">
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\seniori.htm">Seniori</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\juniori.htm">Juniori</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\kadeti.htm">Kadeti</a>
+
+  <li class="dropdown">
+    <a href="" class="dropbtn">Lige(ž)</a>
+    <div class="dropdown-content">
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\seniorke.htm">Seniorke</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\juniorke.htm">Juniorke</a>
+
+  <li class="dropdown">
+    <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\dvorane.htm" class="dropbtn">Dvorane</a>
+
+  <li class="dropdown">
+    <a href="" class="dropbtn">Galerija</a>
+    <div class="dropdown-content">
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\zenska_kosarka.htm">Ženska košarka</a>
+      <a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\muska_kosarka.htm">Muška košarka</a>
+
+  <li><a href="C:\Users\lovre\OneDrive\Radna površina\web stranica\kontakt.htm">Kontakt</a></li>
+</ul>
+
+<table class="table1">
+  <tr>
+    <th style="width:40%; text-align: center;">HT Premijer Liga</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Gorica</td>
+    <td style="width:10%; text-align: center;">14</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:20%; text-align: center;">62</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK DepoLink Škrljevo</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:20%; text-align: center;">59</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table2">
+  <tr>
+    <th style="width:40%; text-align: center;">HT Premijer Liga</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Split</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">7</td>
+    <td style="width:20%; text-align: center;">44</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Šibenka</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">12</td>
+    <td style="width:20%; text-align: center;">64</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table3">
+  <tr>
+    <th style="width:40%; text-align: center;">HT Premijer Liga</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Bosco</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:20%; text-align: center;">58</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Zadar</td>
+    <td style="width:10%; text-align: center;">21</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:20%; text-align: center;">61</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table4">
+  <tr>
+    <th style="width:40%; text-align: center;">HT Premijer Liga</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Cedevita</td>
+    <td style="width:10%; text-align: center;">14</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:20%; text-align: center;">62</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Cibona</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:20%; text-align: center;">59</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table5">
+  <tr>
+    <th style="width:40%; text-align: center;">HT Premijer Liga</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Zabok</td>
+    <td style="width:10%; text-align: center;">14</td>
+    <td style="width:10%; text-align: center;">21</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">18</td>
+    <td style="width:20%; text-align: center;">68</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Alkar</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:20%; text-align: center;">54</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table6">
+  <tr>
+    <th style="width:40%; text-align: center;">HT Premijer Liga</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Dinamo Zagreb</td>
+    <td style="width:10%; text-align: center;">14</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:20%; text-align: center;">62</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Furnir</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:20%; text-align: center;">59</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table7">
+  <tr>
+    <th style="width:40%; text-align: center;">1. Seniorska liga(m)</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Mladost</td>
+    <td style="width:10%; text-align: center;">14</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:20%; text-align: center;">70</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Zagreb</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">8</td>
+    <td style="width:10%; text-align: center;">12</td>
+    <td style="width:20%; text-align: center;">60</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table8">
+  <tr>
+    <th style="width:40%; text-align: center;">1. Seniorska liga(m)</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Dubrovnik</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">12</td>
+    <td style="width:10%; text-align: center;">18</td>
+    <td style="width:20%; text-align: center;">60</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Vrijednosnice Osijek</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:20%; text-align: center;">61</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table9">
+  <tr>
+    <th style="width:40%; text-align: center;">1. Seniorska liga(m)</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Omiš Čagalj Tours</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:20%; text-align: center;">66</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Kvarner 2010</td>
+    <td style="width:10%; text-align: center;">21</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:20%; text-align: center;">64</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table10">
+  <tr>
+    <th style="width:40%; text-align: center;">1. Seniorska liga(m)</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Hermes Analitica</td>
+    <td style="width:10%; text-align: center;">14</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:20%; text-align: center;">70</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Jazine Arbansi</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">8</td>
+    <td style="width:10%; text-align: center;">12</td>
+    <td style="width:20%; text-align: center;">60</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table11">
+  <tr>
+    <th style="width:40%; text-align: center;">1. Juniorska liga(m)</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Samobor</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">12</td>
+    <td style="width:10%; text-align: center;">18</td>
+    <td style="width:20%; text-align: center;">60</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Opus Puntamika</td>
+    <td style="width:10%; text-align: center;">15</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">16</td>
+    <td style="width:20%; text-align: center;">61</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+<table class="table12">
+  <tr>
+    <th style="width:40%; text-align: center;">1. Juniorska liga(m)</th>
+    <th style="width:10%; text-align: center;">1. Četvrtina</th>
+    <th style="width:10%; text-align: center;">2. Četvrtina</th>
+    <th style="width:10%; text-align: center;">3. Četvrtina</th>
+    <th style="width:10%; text-align: center;">4. Četvrtina</th>
+    <th style="width:20%; text-align: center;">KRAJ</th>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Stoja</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:10%; text-align: center;">25</td>
+    <td style="width:10%; text-align: center;">11</td>
+    <td style="width:10%; text-align: center;">17</td>
+    <td style="width:20%; text-align: center;">66</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">KK Ribola Kaštela</td>
+    <td style="width:10%; text-align: center;">21</td>
+    <td style="width:10%; text-align: center;">20</td>
+    <td style="width:10%; text-align: center;">10</td>
+    <td style="width:10%; text-align: center;">13</td>
+    <td style="width:20%; text-align: center;">64</td>
+  </tr>
+  <tr>
+    <td style="width:40%; text-align: center;">16.12.2022., 13:00</td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:10%"></td>
+    <td style="width:20%"></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
